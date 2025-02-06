@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 w-full bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-800 py-4 px-8 flex justify-between items-center shadow-md">
+    <nav className="fixed top-0 left-0 w-full bg-gradient-to-r from-indigo-600 to-purple-700 py-4 px-8 flex justify-between items-center shadow-md">
       <div>
         <h1 className="text-white text-2xl font-bold">Arnav Agarwal</h1>
         <p className="text-gray-200 text-sm">Full Stack Developer | Problem Solver | ML Enthusiast</p>
@@ -37,14 +37,14 @@ const App = () => {
   };
 
   return (
-    <div className="bg-gray-800 min-h-screen text-white">
+    <div className="bg-gray-900 min-h-screen text-white">
       <Navbar />
       <div className="flex flex-col items-center justify-center min-h-screen">
         <h1 className="text-4xl font-bold mt-16">WebTree Global Private Limited</h1>
         <p className="text-lg mt-2 text-gray-300">Full Stack Development Internship</p>
         <button 
           onClick={fetchUser} 
-          className="mt-6 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl shadow-lg transition-all duration-300"
+          className="mt-6 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-xl shadow-lg transition-all duration-300"
         >
           Fetch Profile
         </button>
