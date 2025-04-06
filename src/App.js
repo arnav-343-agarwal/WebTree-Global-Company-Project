@@ -5,7 +5,7 @@ const Navbar = ({ toggleTheme, isDarkMode }) => {
     <nav className="fixed top-0 left-0 w-full bg-gradient-to-r from-indigo-600 to-purple-700 py-4 px-8 flex justify-between items-center shadow-md">
       <div>
         <h1 className="text-white text-2xl font-bold">Arnav Agarwal</h1>
-        <p className="text-gray-200 text-sm">Full Stack Developer | Problem Solver | ML Enthusiast</p>
+        <p className="text-gray-200 text-sm">Full Stack Web Developer | Problem Solver | ML Enthusiast</p>
       </div>
       <div className="flex space-x-6 items-center">
         <a href="https://github.com/arnav-343-agarwal" target="_blank" className="text-gray-200 hover:text-white transition">
